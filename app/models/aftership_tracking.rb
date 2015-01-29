@@ -2,7 +2,6 @@ require 'httpi'
 require 'cgi'
 
 class AftershipTracking < ActiveRecord::Base
-  attr_accessible :tracking, :email, :order_number, :add_to_aftership_at
 
   def exec_add_to_aftership
 
